@@ -1,16 +1,19 @@
 .App {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
-}
-
-
-.button {
- padding: 2rem;
-  font-size: 2rem;
 
 }
+
+
 .text {
   font-size: 2rem;
   padding: 2rem;

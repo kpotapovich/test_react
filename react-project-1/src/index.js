@@ -7,9 +7,8 @@ import Stepper from './Stepper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Stepper />
+    <Stepper title="unicorns" />
+      <Stepper title="cars" />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
